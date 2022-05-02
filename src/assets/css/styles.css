@@ -4,6 +4,20 @@ body {
     font-family: sans-serif;
 }
 
+img {
+    float: right;
+}
+
+.pagebanner {
+    background-color: sandybrown;
+    text-align: center;
+
+
+}
+.pagebanner img {
+    float: none;
+}
+
 h1 {
     font-size: 2em;
     /* shorthand for TOP RIGHT BOTTOM LEFT */
@@ -22,6 +36,7 @@ p {
     font-size: 1.2em;
     line-height: 1.5em;
     margin-bottom: 1.5em;
+
 }
 
 .inner-wrapper {
