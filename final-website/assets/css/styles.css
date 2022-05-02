@@ -1,21 +1,8 @@
+
 body {
     font-size: 16px;
     background-color: #f4f4f4;
     font-family: sans-serif;
-}
-
-img {
-    float: right;
-}
-
-.pagebanner {
-    background-color: sandybrown;
-    text-align: center;
-
-
-}
-.pagebanner img {
-    float: none;
 }
 
 h1 {
@@ -42,6 +29,47 @@ p {
 .inner-wrapper {
     width: 90%;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    grid-template-areas:
+    "pb pb pb pb pb pb pb pb pb pb pb pb"
+    "f1 f1 f1 f1 f1 f1 f2 f2 f2 f2 f2 f2"
+    "mc mc mc mc mc mc mc mc mc mc mc mc"
+    "he he he he he he he he he he he he"
+}
+
+.pagebanner {
+    grid-area: pb;
+
+    background-color: sandybrown;
+    text-align: center;
+}
+
+.pagebanner img {
+    float: none;
+}
+
+.founder1 {
+    grid-area: f1;
+    background-color: aquamarine;
+}
+
+.founder2 {
+    grid-area: f2;
+    background-color: red;
+}
+.main-content{
+    grid-area: mc
+}
+
+header{
+    grid-area: h;
+}
+footer{ 
+    grid-area: f;
 }
 
 header,
@@ -51,6 +79,7 @@ footer {
 }
 
 .hero {
+    grid-area: he;
     text-align: center;
     background: #a5a5a5;
     min-height: 5em;
@@ -63,6 +92,8 @@ footer {
 
 
 }
+
+
 
 
 
