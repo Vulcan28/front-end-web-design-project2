@@ -91,4 +91,4 @@ In keeping with the sombre, commemorative tone of the Memorial, Charles Bean was
 
 In the 1950s Bean drew up a list of exhibition principles, suggesting among other things that the galleries should "avoid glorification of war and boasting of victory" and "perpetuating enmity … for both moral and national reasons and because those who have fought in wars are generally strongest in their desire to prevent war". In general, he decided, former enemies should be treated as generously as were Australians. The exhibitions also needed to be made relevant and engaging, for example, by presenting relics as objects with their own story rather than as just examples of a type. Bean also thought of the future exhibits should be "so described and displayed as to be understood and interesting 75 years after the events".
 
-# Building origins
+
