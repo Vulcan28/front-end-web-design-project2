@@ -7,7 +7,7 @@ title: History of the Australian War Memorial
 
 # We can set extra info here to use in our templates
 hero:
-    title: "I am the hero title!"
+    title: "Gallery"
 
 bannertext: "The Memorial ranks among the world's great national monuments. Sharply etched grandeur and dignity in its stylised Byzantine profile contrast with a distinctively Australian setting among lawns and eucalypts at the head of a wide ceremonial avenue, Anzac Parade. Kangaroos from nearby bushy hills occasionally add to the physical effect.
 
@@ -33,37 +33,13 @@ founder2:
     title: "John Treloar (1894–1952)"
     text: "John Treloar contributed more than any other person to the realisation of Bean's vision. Treloar, who came from Melbourne, also landed on Gallipoli on 25 April 1915. In 1917, as a captain, he was appointed to head the newly created Australian War Records Section (AWRS) in London, responsible for collecting records and relics for the future museum and to help the official historian in his work. After the war Treloar devoted his life to the Memorial, and influenced almost every aspect of its development. Appointed Director of the Memorial in 1920, he remained in this position for the rest of his life, apart from a brief period in charge of the Military History and Information Section (MHIS) during the Second World War."
 
----
 
+
+---
 
 
 <br>
 <br>
-
-
-
-
----
----
-<!-- # Founders
-<br>
-<br> -->
-
-<!-- ## Charles Bean (1879–1968)  -->
-
-<!-- ![Charles Bean Image](assets\images\CharlesBean.jpg) -->
-
-<!-- Charles Bean was born in New South Wales but grew up and was educated largely in Britian. He returned to Australia and worked as a journalist, and in 1914 was chosen by the journalists' association as official war correspondent. Bean went ashore during the landing on Gallipoli on 25 April 1915, and for the rest of the war followed the movements and battles of Australian soldiers. As well as conceiving and lobbying for the creation of the Australian War Memorial, he was appointed to oversee the production of the 12-volume Official History of Australia in the War of 1914–1918 and he wrote six of the volumes, completing the last in 1942. -->
-
-
-<!-- ## John Treloar (1894–1952)  -->
-
-<!-- ![John Treloar Image](assets\images\JohnTreloar.jpg) -->
-
-<!-- John Treloar contributed more than any other person to the realisation of Bean's vision. Treloar, who came from Melbourne, also landed on Gallipoli on 25 April 1915. In 1917, as a captain, he was appointed to head the newly created Australian War Records Section (AWRS) in London, responsible for collecting records and relics for the future museum and to help the official historian in his work. After the war Treloar devoted his life to the Memorial, and influenced almost every aspect of its development. Appointed Director of the Memorial in 1920, he remained in this position for the rest of his life, apart from a brief period in charge of the Military History and Information Section (MHIS) during the Second World War. -->
-
----
----
 
 # Building the National Collection
 

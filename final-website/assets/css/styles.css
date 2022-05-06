@@ -1,7 +1,8 @@
 
 body {
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    background-color: #f4f4f4;
+    background-color: #ecd4bc;
     font-family: sans-serif;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -65,20 +66,32 @@ p {
 
 .pagebanner {
     grid-area: pb;
-
-    background-color: sandybrown;
     text-align: center;
 }
 
 .pagebanner img {
     float: none;
+    width: 100%;
+    height: auto;
 }
+
+
+
 
 .founder1 {
     grid-area: f1;
-    background-color: aquamarine;
+    background-image: url(../images/background.jpg);
     text-align: center;
+    border-radius: 25px;
 }
+
+.founder2 {
+    grid-area: f2;
+    background-image: url(../images/background.jpg);
+    text-align: center;
+    border-radius: 25px;
+}
+
 .founder1 img{
     width: 100%;
     height: 100%;
@@ -90,26 +103,23 @@ p {
     object-fit:contain;
 }
 
-.founder2 {
-    grid-area: f2;
-    background-color: red;
-    text-align: center;
-}
 .main-content{
-    grid-area: mc
+    grid-area: mc;
+    
 }
 
 
 header,
 footer {
-    background-color: #777999;
+    background-image: url(../images/background.jpg);
     padding: 2em 0;
 }
 
 .hero {
+    border-radius: 25px;
     grid-area: he;
     text-align: center;
-    background: #a5a5a5;
+    background: #4d6d73;
     min-height: 5em;
     padding: 2em;
     margin: 1em 0;
@@ -117,14 +127,43 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
 }
 
 
+.hero h1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
 
-
+.hero img{
+    max-width: 480px;
+    width: 100% ;
+    height: auto;
+}
 
 main {
     margin-bottom: 2em;
+}
+
+@media (max-width:48.313rem){
+    .hero{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+    }
+
+
+    .hero h1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+
 }
