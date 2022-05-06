@@ -1,4 +1,4 @@
-
+/* setup for the body and organisation of base grid for the page and font */
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -16,7 +16,7 @@ body {
     
 }
 
-
+/*  setup of grid elements */
 header{
     grid-area: h;
 }
@@ -26,12 +26,12 @@ footer{
 
 main{
     grid-area: m;
+
 }
 
+/* setup of font sizes */
 h1 {
     font-size: 2em;
-    /* shorthand for TOP RIGHT BOTTOM LEFT */
-    /* margin: 1em 0 1.5em 0; */
 }
 
 h2 {
@@ -49,6 +49,7 @@ p {
 
 }
 
+/* grid for the main content of the page  */
 .inner-wrapper {
     width: 90%;
     margin: 0 auto;
@@ -64,6 +65,7 @@ p {
     "he he he he he he he he he he he he"
 }
 
+/* setup and otganization of elements for the inner-wrapper grid */
 .pagebanner {
     grid-area: pb;
     text-align: center;
@@ -115,6 +117,7 @@ footer {
     padding: 2em 0;
 }
 
+/* settup of the subgrid for the gallery */
 .hero {
     border-radius: 25px;
     grid-area: he;
@@ -151,6 +154,7 @@ main {
     margin-bottom: 2em;
 }
 
+/* media query for the siziing down of the gallery from three to two collumbs on smaller devices */
 @media (max-width:48.313rem){
     .hero{
         grid-template-columns: repeat(2, 1fr);

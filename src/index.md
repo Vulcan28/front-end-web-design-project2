@@ -9,6 +9,8 @@ title: History of the Australian War Memorial
 hero:
     title: "Gallery"
 
+# text for below the head image
+
 bannertext: "The Memorial ranks among the world's great national monuments. Sharply etched grandeur and dignity in its stylised Byzantine profile contrast with a distinctively Australian setting among lawns and eucalypts at the head of a wide ceremonial avenue, Anzac Parade. Kangaroos from nearby bushy hills occasionally add to the physical effect.
 
 The Memorial is more than a monument. Inside the sandstone building, with its copper-clad dome, selections from a vast National Collection of war relics, official and private records, art, photographs, film, and sound are employed to relate the story of the Australian nation's experience in world wars, regional conflicts, and international peacekeeping.
@@ -21,6 +23,7 @@ The Memorial is more than a monument. Inside the sandstone building, with its co
 
 The Memorial forms the core of the nation's tribute to the sacrifice and achievement of the more than 102,000 Australian men and women who died serving their country, and to all those who served overseas and at home. A central Commemorative Area flanked by arched cloisters houses the names of the fallen on the bronze panels of the Roll of Honour. At the head of the Pool of Reflection, beyond the Flame of Remembrance, stands the towering Hall of Memory, with its interior wall and high dome clad in a six-million-piece mosaic and illuminated by striking stained-glass windows. Inside lies the Tomb of the Unknown Australian Soldier, a symbolic national shrine."
 
+# content for both of the founders
 
 founder1:
     head: "Founders"
@@ -37,6 +40,8 @@ founder2:
 
 ---
 
+
+<!-- core content of page -->
 
 <br>
 <br>
